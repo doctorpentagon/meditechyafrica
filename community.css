@@ -1,0 +1,93 @@
+.com {
+    background-color: #f9f9f9;
+    /* Light Grey */
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Community Page Styles */
+
+.empower-journey h2,
+.community-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2196F3;
+}
+
+/*  */
+/*  */
+.social-media h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.social-media ul {
+    /* background-color: #2196F3; */
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.soc-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    /* background-color: #2196F3; */
+    margin: 10px;
+    color: black;
+    border: solid 2px #2196F3;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.soc-btn:hover {
+    background-color: #2196F3;
+    color: white;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+}
+
+/*  */
+
+.com-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.com-feature {
+    flex: 0 0 calc(33.333% - 20px);
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.com-feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.com-feature p {
+    font-size: 16px;
+}
+
+
+.community-info {
+    margin-top: 40px;
+}
+
+.learning-initiative,
+.projects,
+.startups {
+    margin-bottom: 30px;
+}
+
+.learning-initiative h3,
+.projects h3,
+.startups h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}

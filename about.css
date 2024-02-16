@@ -1,0 +1,168 @@
+/* About Section Styles */
+.about-section {
+    padding: 80px 0;
+}
+
+.about-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-content{
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.about-head {
+    font-size: 36px;
+    font-weight: 700;
+}
+.about-description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-description p {
+    font-size: 18px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.containera {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Features Section Styles */
+.why {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.whychoose {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.about-feature {
+    /* font-size: 16px; */
+    flex: 0 0 calc(50% - 20px);
+    /* max-width: 20%; */
+    /* Two features per row with margin */
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    justify-content: center;
+}
+
+.about-feature:hover {
+    transform: translateY(-5px);
+}
+
+.about-feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-feature p {
+    font-size: 14px;
+}
+
+
+/*  */
+.containererr {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Mission Section Styles */
+.mission {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-section {
+    margin-bottom: 20px;
+}
+
+.sub-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sub-section p {
+    font-size: 16px;
+}
+
+        /* FAQ ACCORDION */
+        .faq_accordion {
+            margin: 100px auto;
+            max-width: 60vw;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+    
+    
+        .faq_item {
+            box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            column-gap: 24px;
+            row-gap: 32px;
+            align-items: center;
+            /* no effect, vertical align */
+        }
+    
+    
+        .faq_num,
+        .faq_title {
+            font-size: 16px;
+            font-weight: 500;
+            /* color: blueviolet */
+        }
+    
+        .faq_num {
+            color: #ced4de;
+        }
+    
+        .faq_icon {
+            width: 24px;
+            height: 24px;
+            stroke: #2196F3
+        }
+    
+        .faq_hidden {
+            grid-column: 2;
+            display: none;
+        }
+    
+        .faq_hidden p {
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+    
+        .faq_hidden ul {
+            color: #747a80;
+            margin-left: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+    
+        .when_open {
+            border-top: 4px solid #2196F3;
+        }

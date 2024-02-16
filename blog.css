@@ -1,0 +1,137 @@
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex: 0 0 70%;
+}
+
+.blog-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.blog-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.blog-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* .blog-content {
+    
+} */
+.blog-content p {
+    margin-bottom: 15px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    flex: 0 0 25%;
+}
+
+.featured-blogs {
+    background-color: #2196F3;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.featured-blogs h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.featured-blogs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.featured-blogs ul li {
+    margin-bottom: 10px;
+}
+
+.featured-blogs ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.featured-blogs ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Comment Section Styles */
+.comments-section {
+  margin-top: 30px;
+    padding: 20px;
+    border: solid 2px #2196F3;
+    border-radius: 5px;
+}
+
+.comments-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.comment p {
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+/* Comment Section Styles */
+.comments-section {
+    margin-top: 30px;
+}
+
+.comments-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.comment {
+    margin-bottom: 20px;
+}
+
+.comment p {
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .main-content,
+    .sidebar {
+        flex: 1;
+        width: 100%;
+    }
+}
+
+.share-article {
+    margin-top: 20px;
+    padding: 20px;
+    background-color:  #2196F3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.share-Article {
+    text-align: center;
+}
